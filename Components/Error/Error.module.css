@@ -1,0 +1,7 @@
+.error {
+    margin-top: 3vw;
+    font-size: 3vw;
+    border: solid 0.3vw red;
+    color: red;
+    background-color: black;
+}

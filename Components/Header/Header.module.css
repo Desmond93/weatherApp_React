@@ -1,0 +1,33 @@
+
+.heading {
+  font-size: 4vw;
+  padding-bottom: 3vw;
+  margin: 0;
+  color: blanchedalmond;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.weatherInputField {
+    min-width: 60vw;
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 1vw 0;
+    margin-bottom: 3vw;
+    background-color: blanchedalmond;
+  }
+  
+  .showWeather {
+    font-size: 2vw;
+    padding: 1vw 3vw;
+    border-radius: 20%;
+    background-color: black;
+    color: blanchedalmond;
+    border-style: none;
+    cursor: pointer;
+  }
+
+  .showWeather:hover {
+    background-color: blanchedalmond;
+    color: black;
+  }
+  

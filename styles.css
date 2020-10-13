@@ -1,0 +1,13 @@
+.app {
+	text-align: center;
+	padding: 3vw;
+	min-height: 40vw;
+	background: no-repeat url("https://img.wallpapersafari.com/desktop/1920/1080/12/21/TqcjkG.jpg");
+	background-size: cover;
+	font-family: serif;
+}
+
+.appContainer {
+	padding: 3vw;
+	background-color: rgb(255, 255, 255, 0.2);
+}
