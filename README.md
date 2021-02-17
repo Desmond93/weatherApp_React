@@ -8,7 +8,7 @@ Requests to REST API from the site [OpenWeatherMap](https://openweathermap.org/)
 The following technologies were used:
 * React
 * Redux
- * Redux-thunk
+  * Redux-thunk
 * Ajax
 * CSS (modules)
 
