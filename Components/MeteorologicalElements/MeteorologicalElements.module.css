@@ -1,19 +1,62 @@
+ .meteorologicalElements {
+     padding-top: 5vh;
+     color: blanchedalmond;
+     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+ }
  
-.meteorologicalElements {
-    color: blanchedalmond;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
  .weatherInCityName {
      font-size: 3vw;
  }
-
+ 
  .wrapper {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.wrapperItem {
-    font-size: 2.5vw;
-    font-weight: bold;
-}
+ }
+ 
+ .wrapperItem {
+     padding-top: 3vh;
+     font-size: 2.5vw;
+     font-weight: bold;
+ }
+ 
+ @media screen and (max-width: 1200px) {
+     .wrapper {
+         grid-template-columns: repeat(3, 1fr);
+     }
+     .weatherInCityName {
+         font-size: 4vw;
+     }
+     .wrapperItem {
+         font-size: 3.5vw;
+     }
+ }
+ 
+ @media screen and (max-width: 992px) {
+     .weatherInCityName {
+         font-size: 4.5vw;
+     }
+     .wrapperItem {
+         font-size: 4vw;
+     }
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .wrapper {
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .weatherInCityName {
+         font-size: 5.5vw;
+     }
+     .wrapperItem {
+         font-size: 5vw;
+     }
+ }
+ 
+ @media screen and (max-width: 576px) {
+     .weatherInCityName {
+         font-size: 7vw;
+     }
+     .wrapperItem {
+         font-size: 6vw;
+     }
+ }
