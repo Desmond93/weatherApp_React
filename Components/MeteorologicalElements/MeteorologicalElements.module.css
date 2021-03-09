@@ -1,5 +1,5 @@
  .meteorologicalElements {
-     padding-top: 5vh;
+     padding: 5vh 0 5vh 0;
      color: blanchedalmond;
      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
  }
